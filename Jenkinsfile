@@ -1,6 +1,6 @@
 node{
    stage('SCM Checkout'){
-     git 'https://github.com/vendhaenpv/my-app.git'
+     git 'https://github.com/vendhaenpv/my-app'
    }
    stage('Compile-Package'){
 
