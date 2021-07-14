@@ -15,7 +15,7 @@ node{
 	        }
 	    }
    stage('Build Docker Image'){
-   sh 'docker build -t vendhanpv/myweb:0.0.2 .'
+   sh 'docker build -t vendhanp/myweb:0.0.2 .'
    }
    stage('Docker Image Push'){
    withCredentials([string(credentialsId: 'dockerPass', variable: 'dockerPassword')]) {
